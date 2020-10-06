@@ -1,10 +1,10 @@
-# VERSION 1.10.11
-# AUTHOR: Swapnil Gusani
+# VERSION 1.10.12
+# AUTHOR: Keith Gaputis
 # DESCRIPTION: Basic Airflow container
-# BUILD: docker build --rm -t swapniel99/docker-airflow .
-# SOURCE: https://github.com/swapniel99/docker-airflow
+# BUILD: docker build --rm -t axiskeith/docker-airflow .
+# SOURCE: https://github.com/axiskeith/docker-airflow
 
-FROM apache/airflow:1.10.11
+FROM apache/airflow:1.10.12-python3.6
 
 USER root
 
